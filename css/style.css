@@ -25,3 +25,17 @@ main {
   background: green;
   color: red;
 }
+
+#skip-link {
+  position: absolute;
+  top: -50px;
+  left: 0;
+  background: red;
+  color: white;
+  padding: 8px;
+  z-index: 9999;
+}
+
+#skip-link:focus {
+  top: 0;
+}
